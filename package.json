@@ -1,6 +1,6 @@
 {
   "name": "@whnue/whnue-react-virtualized-select",
-  "version": "3.1.1",
+  "version": "4.0.0",
   "description": "Customized version of react-select based on bvaughn/react-virtualized-select",
   "main": "dist/commonjs/index.js",
   "jsnext:main": "dist/es/index.js",
@@ -100,7 +100,6 @@
     "react": "^15.3.0",
     "react-addons-test-utils": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-select": "^1.0.0-rc.2",
     "react-transform-catch-errors": "^1.0.2",
     "react-transform-hmr": "^1.0.2",
     "react-virtualized": "^9.0.0",
@@ -116,7 +115,7 @@
   "dependencies": {
     "babel-runtime": "^6.11.6",
     "prop-types": "^15.5.8",
-    "react-select": "^1.0.0-rc.2",
+    "react-select-plus": "^1.0.0-rc.10",
     "react-virtualized": "^9.0.0"
   },
   "peerDependencies": {
