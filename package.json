@@ -1,7 +1,7 @@
 {
-  "name": "react-virtualized-select",
+  "name": "@whnue/whnue-react-virtualized-select",
   "version": "3.1.0",
-  "description": "Drop-down menu for React with windowing to support large numbers of options.",
+  "description": "Customized version of react-select based on bvaughn/react-virtualized-select",
   "main": "dist/commonjs/index.js",
   "jsnext:main": "dist/es/index.js",
   "scripts": {
@@ -31,14 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bvaughn/react-virtualized-select.git"
+    "url": "git+ssh://git@github.com:whnue/react-virtualized-select.git"
   },
-  "author": "Brian Vaughn",
+  "author": "Mikkel Wied Frederiksen",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bvaughn/react-virtualized-select/issues"
-  },
-  "homepage": "https://github.com/bvaughn/react-virtualized-select",
+  "homepage": "https://about.whnue.com",
   "standard": {
     "parser": "babel-eslint",
     "ignore": [
