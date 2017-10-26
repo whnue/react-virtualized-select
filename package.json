@@ -1,6 +1,6 @@
 {
   "name": "@whnue/whnue-react-virtualized-select",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Customized version of react-select based on bvaughn/react-virtualized-select",
   "main": "dist/commonjs/index.js",
   "jsnext:main": "dist/es/index.js",
@@ -19,8 +19,6 @@
     "deploy": "gh-pages -d build",
     "lint": "standard",
     "prebuild": "npm run lint",
-    "postpublish": "npm run deploy",
-    "posttest": "codecov",
     "prepublish": "npm run build",
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --config webpack.config.dev.js",
     "stats": "NODE_ENV=production webpack --config webpack.config.demo.js -p --json > stats.json",
